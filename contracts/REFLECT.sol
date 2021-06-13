@@ -139,6 +139,7 @@ library SafeMath {
     return c;
   }
 }
+contract SkyCloutToken is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
